@@ -141,6 +141,22 @@ button:hover {
   background-color: #3949ab;
 }
 
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  color: #d32f2f;
+  padding: 4px 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-left: 8px;
+}
+
+.delete-btn:hover {
+  background-color: transparent;
+  transform: scale(1.2);
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
